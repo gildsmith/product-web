@@ -1,5 +1,5 @@
 import ProductsIndex from './pages/ProductsListPage.vue'
-import {IconBarcode} from '@tabler/icons-vue'
+import {IconPackage} from '@tabler/icons-vue'
 
 export default [
     {
@@ -7,7 +7,9 @@ export default [
         component: ProductsIndex,
         path: '/products',
         meta: {
-            name: 'Products List', icon: IconBarcode
-        }
-    }
+            name: 'Products List',
+            description: 'Manage your product inventory, including pricing and stock levels',
+            icon: IconPackage,
+        },
+    },
 ]

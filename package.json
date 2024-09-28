@@ -1,33 +1,33 @@
 {
-  "name": "@gildsmith/product-client",
+  "name": "@gildsmith/product-web",
   "type": "module",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gildsmith/product-client.git"
+    "url": "git+https://github.com/gildsmith/product-web.git"
   },
   "author": "Mateusz Chmielewski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gildsmith/product-client/issues"
+    "url": "https://github.com/gildsmith/product-web/issues"
   },
-  "homepage": "https://github.com/gildsmith/product-client#readme",
+  "homepage": "https://github.com/gildsmith/product-web#readme",
   "dependencies": {
-    "@tabler/icons-vue": "^3.2.0",
-    "@vueuse/core": "^10.9.0",
-    "axios": "^1.6.8",
-    "pinia": "^2.1.7",
+    "@tabler/icons-vue": "^3.19.0",
+    "@vueuse/core": "^10.11.1",
+    "axios": "^1.7.7",
+    "pinia": "^2.2.2",
     "vue": "^3.4.23",
-    "vue-i18n": "^9.13.1",
-    "vue-router": "^4.3.2",
+    "vue-i18n": "^9.14.1",
+    "vue-router": "^4.4.5",
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.1.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.25.0",
-    "globals": "^15.0.0",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^7.7.1"
+    "@eslint/js": "^9.11.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.28.0",
+    "globals": "^15.9.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^7.18.0"
   }
 }
